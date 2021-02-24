@@ -1,3 +1,10 @@
+###Implementing a set of functions used in conjunction to form a website login system. 
+Your system will utilize a text file for storing, retrieving, and verifying user credentials. 
+We identify users based on their **username** and **password**. For simplicity we assume that usernames and passwords only contain alphanumeric characters. 
+Alphanumeric characters represent the numbers **0-9** and the letters **A-Z** (both uppercase and lowercase). 
+Usernames and passwords are case sensitive and must contain **at least 6** characters. Usernames must be unique.
+Each username and password combination will be stored on its own line in the text file. Each line in the text file has the following format: ###
+
 def getUserData(filename):
     usernames = []
     passwords = []
